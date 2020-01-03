@@ -1,2 +1,2 @@
 # springboot-shiro
-springboot+shiro  Demo
+springboot+shiro+thymeleaf  Demo
