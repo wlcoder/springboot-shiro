@@ -33,7 +33,6 @@ public class UserRealm extends AuthorizingRealm {
         if (!token.getUsername().equals(name)) {
             return null;
         }
-        //2.判断密码
         return new SimpleAuthenticationInfo("", password, "");
     }
 }
